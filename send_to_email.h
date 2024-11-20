@@ -4,3 +4,4 @@
 void sendToEmail(BreachType breachType);
 
 #endif
+
