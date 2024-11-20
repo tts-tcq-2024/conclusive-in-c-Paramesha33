@@ -25,3 +25,4 @@ void sendToEmail(BreachType breachType)
   void (*messageType[])(const char* recepient) = {onNormalTemp,sendLowTempAlert,sendHighTempAlert};
   messageType[breachType](recepient);
 }
+
