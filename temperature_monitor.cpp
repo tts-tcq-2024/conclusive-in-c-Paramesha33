@@ -18,3 +18,4 @@ BreachType classifyTemperatureBreach(CoolingType coolingType, double temperature
 
   return inferBreach(temperatureInC, lowerLimit, upperLimit);
 }
+
