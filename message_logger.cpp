@@ -14,3 +14,4 @@ void print(const char *format, ...)
     va_end(args);
     printcount++;
 }
+
